@@ -1,0 +1,47 @@
+
+#hamnav {
+  width: 100%;
+  background: rgb(116, 78, 78);
+  position: sticky;
+  top: 0;
+}
+
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover { background: #2e1f74; }
+
+#hamnav label, #hamburger { display: none; }
+
+@media screen and (max-width: 768px){
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgb(46, 161, 61);
+  }
+
+  #hamnav label {
+    display: inline-block;
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
