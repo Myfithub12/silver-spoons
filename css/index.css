@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(8, 43, 83);
+    background-color: rgb(47, 168, 105);
 }
 
 .images {
@@ -41,16 +41,16 @@ section {
     text-align: center;
 }
 
-section-all {
+#top {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(93, 204, 65);
+    background-color: rgb(107, 127, 175);
 }
 
 @media screen and (min-width: 1140px) {
-    section row {
+    section #row {
         max-width: 600px;
         margin: auto;
         display: flex;
@@ -58,7 +58,7 @@ section-all {
         justify-content: space-between;
         
     }
-    section row col {
+    section #row #col {
         padding: 1rem;
         flex-grow: 1;
         display: flex;
