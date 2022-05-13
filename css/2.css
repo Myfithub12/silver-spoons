@@ -1,0 +1,52 @@
+/* Online Links */
+#maininfo {
+    background-color: rgb(143, 78, 35);
+}
+
+#body-info {
+    display: grid;
+    grid-template-rows: 15rem 1fr 1fr;
+    grid-template-rows: min-content auto min-content;
+}
+
+html, #body-info {
+    height: 100%;
+}
+
+header, footer #body-info {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 1em;
+    margin: 1em;
+    align-content: center;
+}
+
+h1 {
+    padding: 1em;
+    margin: 1em;
+    align-content: center;
+}
+
+@media screen and (min-width: 1140px) {
+    section .row {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 3;
+        justify-content: space-between;
+        
+    }
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+    }
+    
+    .footer{
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+}
