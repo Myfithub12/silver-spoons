@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(47, 168, 105);
+    background-color: rgb(8, 43, 83);
 }
 
 .images {
@@ -41,16 +41,40 @@ section {
     text-align: center;
 }
 
-#top {
+.section-all {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(107, 127, 175);
+    background-color: rgb(93, 204, 65);
+}
+
+.section-alt {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(115, 142, 167);
+}
+
+.section-alba {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(94, 156, 78);
 }
 
 @media screen and (min-width: 1140px) {
-    section #row {
+    section .row {
         max-width: 600px;
         margin: auto;
         display: flex;
@@ -58,13 +82,13 @@ section {
         justify-content: space-between;
         
     }
-    section #row #col {
+    section .row .col {
         padding: 1rem;
         flex-grow: 1;
         display: flex;
     }
     
-    footer{
+    .footer{
         max-width: 600px;
         margin: auto;
         display: flex;
