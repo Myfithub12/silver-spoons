@@ -1,52 +1,81 @@
-/* Bio Info */
-.mainabout{
-    background-color: rgb(39, 26, 158);
-}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-#body-info {
-    display: grid;
-    grid-template-rows: 15rem 1fr 1fr;
-    grid-template-rows: min-content auto min-content;
-}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-html {
-    height: 100%;
-}
-
-header, footer {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    padding: 1em;
-    margin: 1em;
-    align-content: center;
-}
-
-#Missouri {
-    margin: .5em;
-    background-color: rgb(160, 152, 44);
-}
-
-#Illinois {
-    margin: .5em;
-    background-color: rgb(190, 80, 43);
-}
-
-#Kentucky {
-    margin: .5em;
-    background-color: rgb(118, 168, 42);
+#mainheader{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(8, 43, 83);
 }
 
 .images {
+    justify-content: space-between;
+    box-shadow: 1px 3px 15px;
+    border: 4.5px solid rgb(163, 23, 133);
+    border-radius: 15%;
+    background-color: #a593c2;
+}
+
+
+body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    text-align: auto;
-    margin: 3rem;
-    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+h1{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    color: red;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+.section-all {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(93, 204, 65);
+}
+
+.section-alt {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(115, 142, 167);
+}
+
+.section-alba {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(94, 156, 78);
 }
 
 @media screen and (min-width: 1140px) {
     section .row {
-        max-width: 1200px;
+        max-width: 600px;
         margin: auto;
         display: flex;
         flex-grow: 3;
@@ -54,7 +83,7 @@ header, footer {
         
     }
     section .row .col {
-        padding: 3rem;
+        padding: 1rem;
         flex-grow: 1;
         display: flex;
     }
