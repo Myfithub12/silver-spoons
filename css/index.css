@@ -79,7 +79,7 @@ section {
         margin: auto;
         display: flex;
         flex-grow: 3;
-        justify-content: space-between;
+        justify-content: center;
         
     }
     section .row .col {
