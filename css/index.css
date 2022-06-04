@@ -41,7 +41,9 @@ section {
     text-align: center;
 }
 
-.section-all {
+.al {
+    float: left;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -49,20 +51,14 @@ section {
     background-color: rgb(93, 204, 65);
 }
 
-.section-alt {
+.nl {
+    float: right;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
     background-color: rgb(115, 142, 167);
-}
-
-.section-alba {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color: blueviolet;
 }
 
 #footer {
