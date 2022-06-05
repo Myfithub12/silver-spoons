@@ -7,12 +7,12 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(8, 43, 83);
+    background-color: blue;
 }
 
 .images {
     justify-content: space-between;
-    box-shadow: 1px 3px 15eenpx;
+    box-shadow: 1px 3px 15px;
     border: 4.5px solid rgb(163, 23, 133);
     border-radius: 15%;
     background-color: #a593c2;
@@ -31,7 +31,7 @@ h1{
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    color: green;
+    color: black;
 }
 
 section {
@@ -39,6 +39,26 @@ section {
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
+}
+
+.mlb {
+    float: left;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(191, 100, 189);
+}
+
+.nl {
+    float: right;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(96, 184, 184);
 }
 
 .east {
