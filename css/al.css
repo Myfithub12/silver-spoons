@@ -51,7 +51,7 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.nl {
+.al {
     float: right;
     width: 50%;
     padding-top: 3rem;
@@ -63,32 +63,31 @@ section {
 
 .east {
     float: left;
-    width: 50%;
+    width: 33%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:red;
+    background-color:rgb(191, 100, 189);
 }
 
-.central {
-    float: left;
-    width: 50%;
+.central {    float: center;
+    width: 33%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:white;
+    background-color:rgb(191, 100, 189);
 }
 
 .west {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 33%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:blue;
+    background-color:rgb(191, 100, 189);
 }
 
 #footer {
