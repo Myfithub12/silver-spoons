@@ -55,19 +55,19 @@ section {
 
 .east {
     float: center;
-    width: 33.3%;
+    width: 33%;
     background-color:red;
 }
 
 .central {    
     float: center;
-    width: 33.3%;
+    width: 33%;
     background-color:white;
 }
 
 .west {
     float: center;
-    width: 33.3%;
+    width: 33%;
     background-color:blue;
 }
 

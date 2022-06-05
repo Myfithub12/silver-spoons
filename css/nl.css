@@ -43,7 +43,7 @@ section {
 
 .east {
     float: left;
-    width: 33.3%;
+    width: 33%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -52,7 +52,7 @@ section {
 }
 
 .central {    float: center;
-    width: 33.3%;
+    width: 33%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -62,7 +62,7 @@ section {
 
 .west {
     float: right;
-    width: 33.3%;
+    width: 33%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
