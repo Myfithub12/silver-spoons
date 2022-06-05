@@ -43,7 +43,7 @@ h1{
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    color: red;
+    color: green;
 }
 
 section {
@@ -54,32 +54,21 @@ section {
 }
 
 .east {
-    float: left;
+    float: center;
     width: 33.3%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color:red;
 }
 
-.central {    float: center;
+.central {    
+    float: center;
     width: 33.3%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color:white;
 }
 
 .west {
-    float: right;
+    float: center;
     width: 33.3%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color:blue;
 }
 
 #footer {
