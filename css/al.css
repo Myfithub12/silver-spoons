@@ -10,9 +10,21 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     background-color: rgb(8, 43, 83);
 }
 
+.buttons {
+    float: center;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+
+}
+
 .images {
+    float: center;
+    width: 50%;
     justify-content: space-between;
-    box-shadow: 1px 3px 15px;
+    box-shadow: 1px 3px 15eenpx;
     border: 4.5px solid rgb(163, 23, 133);
     border-radius: 15%;
     background-color: #a593c2;
@@ -41,24 +53,33 @@ section {
     text-align: center;
 }
 
-.al {
+.east {
     float: left;
-    width: 50%;
+    width: 33.3%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(93, 204, 65);
+    background-color:rgb(191, 100, 189);
 }
 
-.nl {
-    float: right;
-    width: 50%;
+.central {    float: center;
+    width: 33.3%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(115, 142, 167);
+    background-color:rgb(191, 100, 189);
+}
+
+.west {
+    float: right;
+    width: 33.3%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(191, 100, 189);
 }
 
 #footer {
