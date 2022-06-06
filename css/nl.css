@@ -55,7 +55,7 @@ section {
     text-align: center;
 }
 
-.mlb {
+.al {
     float: left;
     width: 50%;
     padding-top: 3rem;
@@ -65,7 +65,7 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.al {
+.nl {
     float: right;
     width: 50%;
     padding-top: 3rem;
@@ -82,7 +82,7 @@ section {
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color:red;
 }
 
 .central {    float: center;
@@ -91,7 +91,7 @@ section {
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color:red;
 }
 
 .west {
@@ -101,7 +101,7 @@ section {
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color:red;
 }
 
 #footer {

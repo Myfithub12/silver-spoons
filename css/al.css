@@ -21,14 +21,10 @@ header, footer {
 }
 
 .images {
-    padding-top: .5rem;
-    padding-bottom:.5rem;
-    margin: center;
-    text-align: center;
-    background-color: rgb(8, 43, 83);
-    box-shadow: .5px 1.5px 7.5px;
+    justify-content: space-between;
+    box-shadow: 1px 3px 15px;
     border: 4.5px solid rgb(163, 23, 133);
-    border-radius: 7.5%;
+    border-radius: 15%;
     background-color: #a593c2;
 }
 
@@ -55,7 +51,7 @@ section {
     text-align: center;
 }
 
-.mlb {
+.nl {
     float: left;
     width: 50%;
     padding-top: 3rem;
@@ -65,7 +61,7 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.al {
+.mlb {
     float: right;
     width: 50%;
     padding-top: 3rem;
