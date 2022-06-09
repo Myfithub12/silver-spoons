@@ -2,7 +2,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#maincollection {
+#mainheader{
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -10,25 +10,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     background-color: blue;
 }
 
-html {
-    height: 100%;
-}
-
-header, footer {
-    padding: 1em;
-    margin: 1em;
-    align-content: center;
-}
-
 .images {
-    padding-top: .5rem;
-    padding-bottom:.5rem;
-    margin: center;
-    text-align: center;
-    background-color: rgb(8, 43, 83);
-    box-shadow: .5px 1.5px 7.5px;
+    justify-content: space-between;
+    box-shadow: 1px 3px 15px;
     border: 4.5px solid rgb(163, 23, 133);
-    border-radius: 7.5%;
+    border-radius: 15%;
     background-color: #a593c2;
 }
 
@@ -41,15 +27,6 @@ body {
 
 
 h1{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    color: black;
-}
-
-
-li{
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -86,7 +63,7 @@ section {
 
 .east {
     float: left;
-    width: 33%;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -96,7 +73,7 @@ section {
 
 .central {    
     float: center;
-    width: 33%;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -106,7 +83,7 @@ section {
 
 .west {
     float: right;
-    width: 33%;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
