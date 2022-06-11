@@ -43,7 +43,7 @@ section {
 
 .mlb {
     float: left;
-    width: 50%;
+    width: 49%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -53,7 +53,7 @@ section {
 
 .nl {
     float: right;
-    width: 50%;
+    width: 49%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -63,7 +63,7 @@ section {
 
 .east {
     float: left;
-    width: 30%;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -72,8 +72,8 @@ section {
 }
 
 .central {    
-    float: center;
-    width: 30%;
+    float: right;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -82,8 +82,18 @@ section {
 }
 
 .west {
+    float: left;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(191, 100, 189);
+}
+
+.standings {
     float: right;
-    width: 30%;
+    width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;

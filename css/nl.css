@@ -11,7 +11,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 }
 
 .images {
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 1px 3px 15px;
     border: 4.5px solid rgb(163, 23, 133);
     border-radius: 15%;
@@ -51,7 +51,7 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.nl {
+.mlb {
     float: right;
     width: 50%;
     padding-top: 3rem;
@@ -96,7 +96,7 @@ section {
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(94, 156, 78);
+    background-color: rgb(61, 143, 41);
 }
 
 @media screen and (min-width: 1140px) {
