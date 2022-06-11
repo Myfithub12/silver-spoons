@@ -1,19 +1,13 @@
-#maincollection {
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#mainheader{
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
     background-color: blue;
-}
-
-html {
-    height: 100%;
-}
-
-header, footer {
-    padding: 1em;
-    margin: 1em;
-    align-content: center;
 }
 
 .images {
@@ -47,7 +41,7 @@ section {
     text-align: center;
 }
 
-.nl {
+.mlb {
     float: left;
     width: 50%;
     padding-top: 3rem;
@@ -57,7 +51,7 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.mlb {
+.nl {
     float: right;
     width: 50%;
     padding-top: 3rem;
@@ -97,12 +91,12 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.footer {
+#footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color: rgb(94, 156, 78);
+    background-color: rgb(61, 143, 41);
 }
 
 @media screen and (min-width: 1140px) {
