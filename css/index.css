@@ -18,13 +18,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     background-color: #a593c2;
 }
 
-
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-family: 'Rubik', sans-serif;
 }
-
 
 h1{
     padding-top: 3rem;
@@ -33,7 +31,6 @@ h1{
     text-align: center;
     color: black;
 }
-
 
 h2{
     padding-top: 3rem;
