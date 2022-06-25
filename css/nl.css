@@ -18,21 +18,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     background-color: #a593c2;
 }
 
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-family: 'Rubik', sans-serif;
 }
 
-h1{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    color: black;
-}
 
-h2{
+h1{
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -47,7 +41,7 @@ section {
     text-align: center;
 }
 
-.mlb {
+.al {
     float: left;
     width: 50%;
     padding-top: 3rem;
@@ -57,15 +51,46 @@ section {
     background-color:rgb(191, 100, 189);
 }
 
-.al {
+.mlb {
     float: right;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
-    background-color:rgb(191, 100, 189);
+    background-color: rgb(96, 184, 184);
 }
+
+.east {
+    float: left;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:red;
+}
+
+.central {    
+    float: center;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:red;
+}
+
+.west {
+    float: right;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:red;
+}
+
 #footer {
     padding-top: 3rem;
     padding-bottom: 3rem;

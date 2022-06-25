@@ -24,14 +24,6 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-#footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color: rgb(61, 143, 41);
-}
-
 h1{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -72,8 +64,57 @@ section {
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
+    background-color: rgb(96, 184, 184);
+}
+
+.east {
+    float: left;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
     background-color:rgb(191, 100, 189);
 }
+
+.central {    
+    float: right;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(191, 100, 189);
+}
+
+.west {
+    float: left;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(191, 100, 189);
+}
+
+.standings {
+    float: right;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(191, 100, 189);
+}
+
+#footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(61, 143, 41);
+}
+
 @media screen and (min-width: 1140px) {
     section .row {
         max-width: 600px;
