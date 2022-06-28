@@ -39,23 +39,23 @@ section {
     text-align: center;
 }
 
-.al {
-    float: left;
+.mlb {
+    float: center;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color:rgb(191, 100, 189);
 }
 
-.mlb {
-    float: right;
+.al {
+    float: center;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color: rgb(96, 184, 184);
 }
 
@@ -65,28 +65,38 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
-    background-color:red;
+    text-align: auto;
+    background-color:rgb(191, 100, 189);
 }
 
 .central {    
-    float: center;
-    width: 50%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color:red;
-}
-
-.west {
     float: right;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
-    background-color:red;
+    text-align: auto;
+    background-color:rgb(191, 100, 189);
+}
+
+.west {
+    float: left;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: auto;
+    background-color:rgb(191, 100, 189);
+}
+
+.standings {
+    float: right;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: auto;
+    background-color:rgb(191, 100, 189);
 }
 
 #footer {

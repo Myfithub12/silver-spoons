@@ -48,22 +48,22 @@ section {
 }
 
 .mlb {
-    float: left;
+    float: center;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color:rgb(191, 100, 189);
 }
 
 .nl {
-    float: right;
+    float: center;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color: rgb(96, 184, 184);
 }
 
@@ -73,7 +73,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color:rgb(191, 100, 189);
 }
 
@@ -83,7 +83,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color:rgb(191, 100, 189);
 }
 
@@ -93,7 +93,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color:rgb(191, 100, 189);
 }
 
@@ -103,7 +103,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color:rgb(191, 100, 189);
 }
 
@@ -111,7 +111,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: center;
+    text-align: auto;
     background-color: rgb(61, 143, 41);
 }
 
