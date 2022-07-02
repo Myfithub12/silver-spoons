@@ -89,7 +89,7 @@ section {
 
 .west {
     float: left;
-    width: center;
+    width: left;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
