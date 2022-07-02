@@ -48,23 +48,23 @@ section {
 }
 
 .mlb {
-    float: center;
+    float: left;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: auto;
-    background-color:rgb(191, 100, 189);
+    background-color:#83add7;
 }
 
 .nl {
-    float: center;
+    float: right;
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: auto;
-    background-color: rgb(96, 184, 184);
+    background-color: #2775c4;
 }
 
 .east {
@@ -89,7 +89,7 @@ section {
 
 .west {
     float: left;
-    width: 50%;
+    width: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
