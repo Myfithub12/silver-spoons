@@ -88,30 +88,20 @@ section {
 }
 
 .west {
-    float: left;
-    width: 50%;
+    float: center;
+    width: 100%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: auto;
-    background-color:rgb(191, 100, 189);
-}
-
-.standings {
-    float: right;
-    width: 50%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: auto;
-    background-color:rgb(191, 100, 189);
+    background-color:rgb(100, 191, 105);
 }
 
 #footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color: rgb(61, 143, 41);
 }
 
