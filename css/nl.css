@@ -45,8 +45,8 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
-    background-color:#8bb342;
+    text-align: center;
+    background-color:#83add7;
 }
 
 .al {
@@ -55,8 +55,8 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
-    background-color: #69185e;
+    text-align: center;
+    background-color: #2775c4;
 }
 
 .east {
@@ -65,7 +65,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color:rgb(191, 100, 189);
 }
 
@@ -75,8 +75,8 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
-    background-color:rgb(191, 100, 189);
+    text-align: center;
+    background-color:rgb(191, 100, 143);
 }
 
 .west {
@@ -85,18 +85,8 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
-    background-color:rgb(191, 100, 189);
-}
-
-.standings {
-    float: right;
-    width: 50%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: auto;
-    background-color:rgb(191, 100, 189);
+    text-align: center;
+    background-color:rgb(191, 167, 100);
 }
 
 #footer {

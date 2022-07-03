@@ -53,7 +53,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color:#83add7;
 }
 
@@ -63,7 +63,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color: #2775c4;
 }
 
@@ -73,7 +73,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color:rgb(191, 100, 189);
 }
 
@@ -83,7 +83,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color:rgb(191, 100, 143);
 }
 
@@ -93,7 +93,7 @@ section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    text-align: auto;
+    text-align: center;
     background-color:rgb(191, 167, 100);
 }
 
