@@ -111,7 +111,6 @@ section {
         flex-grow: 1;
         display: flex;
     }
-    
     .footer{
         max-width: 600px;
         margin: auto;
