@@ -20,7 +20,12 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 }
 #hamitems a:hover { background: #2e1f74; }
 
-#hamnav label, #hamburger { display: none; }
+#hamnav label,
+#hamburger-east,
+#hamburger-central,
+#hamburger-west { 
+  display: none; 
+}
 
 @media screen and (max-width: 768px){
   #hamitems a {
