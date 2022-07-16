@@ -97,6 +97,15 @@ section {
     background-color:rgb(191, 167, 100);
 }
 
+#hammie {
+    float: right;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
 #footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
