@@ -54,6 +54,8 @@ section {
     text-align: center;
 }
 
+/* Page Links */
+
 .mlb {
     float: left;
     width: 50%;
@@ -73,6 +75,8 @@ section {
     text-align: center;
     background-color: #2775c4;
 }
+
+/* East, Central, West Links */
 
 .east {
     float: left;
@@ -104,6 +108,19 @@ section {
     background-color:rgb(191, 167, 100);
 }
 
+/* Hamberger Menu */
+
+#hammie {
+    float: right;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+/* Footer Info */
+
 #footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -111,6 +128,8 @@ section {
     text-align: center;
     background-color: rgb(61, 143, 41);
 }
+
+/*Media */
 
 @media screen and (min-width: 1140px) {
     section .row {

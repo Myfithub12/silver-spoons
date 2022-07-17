@@ -54,6 +54,8 @@ section {
     text-align: center;
 }
 
+/* Page Links */
+
 .al {
     float: left;
     width: 50%;
@@ -74,6 +76,8 @@ section {
     background-color: rgb(96, 184, 184);
 }
 
+/* Hamberger Menu */
+
 #hammie {
     float: right;
     width: 100%;
@@ -81,13 +85,19 @@ section {
     padding-bottom: 1rem;
     margin: auto;
     text-align: center;
-}#footer {
+}
+
+/* Footer Info */
+
+#footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
     text-align: center;
     background-color: rgb(61, 143, 41);
 }
+
+/* Media */
 
 @media screen and (min-width: 1140px) {
     section .row {
