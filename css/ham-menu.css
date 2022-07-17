@@ -4,7 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 #hamnav {
   width: 100%;
-  background: rgb(116, 78, 78);
+  background: rgb(139, 34, 34);
   position: sticky;
   top: 0;
 }
@@ -21,6 +21,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 #hamitems a:hover { background: #2e1f74; }
 
 #hamnav label,
+#hamburger,
 #hamburger-east,
 #hamburger-central,
 #hamburger-west { 
